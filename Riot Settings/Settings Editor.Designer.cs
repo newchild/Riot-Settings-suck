@@ -34,6 +34,8 @@
 			this.comboBox2 = new System.Windows.Forms.ComboBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.Presets = new System.Windows.Forms.Button();
+			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -89,11 +91,26 @@
 			this.textBox1.TabIndex = 5;
 			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
+			// Presets
+			// 
+			this.Presets.Location = new System.Drawing.Point(19, 250);
+			this.Presets.Name = "Presets";
+			this.Presets.Size = new System.Drawing.Size(107, 48);
+			this.Presets.TabIndex = 6;
+			this.Presets.Text = "Load Preset";
+			this.Presets.UseVisualStyleBackColor = true;
+			this.Presets.Click += new System.EventHandler(this.Presets_Click);
+			// 
+			// openFileDialog1
+			// 
+			this.openFileDialog1.FileName = "openFileDialog1";
+			// 
 			// Settings_Editor
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(832, 401);
+			this.Controls.Add(this.Presets);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.comboBox2);
@@ -116,5 +133,7 @@
 		private System.Windows.Forms.ComboBox comboBox2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.Button Presets;
+		private System.Windows.Forms.OpenFileDialog openFileDialog1;
 	}
 }

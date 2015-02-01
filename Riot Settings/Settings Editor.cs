@@ -64,5 +64,13 @@ namespace Riot_Settings
 			data[comboBox1.SelectedItem.ToString()][comboBox2.SelectedItem.ToString()] = textBox1.Text;
 			parser.WriteFile(Form1.Filepath, data);
 		}
+
+		private void Presets_Click(object sender, EventArgs e)
+		{
+			openFileDialog1.ShowDialog();
+			data = parser.ReadFile(openFileDialog1.FileName);
+			parser.WriteFile(Form1.Filepath, data);
+			MessageBox.Show("Preset loaded");
+		}
 	}
 }

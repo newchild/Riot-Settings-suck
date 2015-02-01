@@ -1,0 +1,11 @@
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\bin\Debug\Riot Settings.exe.config
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot Settings.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot_Settings.Form1.resources
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot_Settings.Settings_Editor.resources
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot Settings.csproj.GenerateResource.Cache
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\bin\Debug\Riot Settings.exe
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\bin\Debug\Riot Settings.pdb
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\bin\Debug\INIFileParser.dll
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\bin\Debug\INIFileParser.pdb
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot Settings.exe
+C:\Users\Fabian\Documents\GitHub\Riot-Settings-suck\Riot Settings\obj\Debug\Riot Settings.pdb
